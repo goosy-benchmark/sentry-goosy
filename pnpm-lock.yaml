@@ -556,8 +556,8 @@ importers:
         specifier: 7.0.0
         version: 7.0.0(@sentry/node@11.0.0-beta.2)(jest-environment-jsdom@30.4.1)(jest-environment-node@30.4.1)(jest@30.4.2(@types/node@24.13.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.2)(@types/node@24.13.2)(@typescript/typescript6@6.0.2)))
       '@swc-contrib/mut-cjs-exports':
-        specifier: 15.0.0
-        version: 15.0.0(@swc/core@1.16.2)(@swc/jest@0.2.39(@swc/core@1.16.2))
+        specifier: 16.0.0
+        version: 16.0.0(@swc/core@1.16.2)(@swc/jest@0.2.39(@swc/core@1.16.2))
       '@swc/core':
         specifier: 1.16.2
         version: 1.16.2
@@ -3373,8 +3373,8 @@ packages:
     resolution: {integrity: sha512-PTigkxMdMUP6B5ISS7jMqJAKhgrhZwjprDqR1eATtFfh0OpKVNp110xiH+goeVdrJ29/4LeZJR4FaHHWstsu0A==}
     engines: {node: '>=12.16'}
 
-  '@swc-contrib/mut-cjs-exports@15.0.0':
-    resolution: {integrity: sha512-etf/WrlGTgojDfnOeAn9wjDfRSd/wpcx/tB4O9m5SXAj8Ftl1yABCafuZyg7x2bJ5PuSrRUQV0ieARriTYb6tQ==}
+  '@swc-contrib/mut-cjs-exports@16.0.0':
+    resolution: {integrity: sha512-beefVq9oHD1gcm5CYmAEXnUDXIeTq3f3LiAA3DhjJNdYypobuBFxr7RBGfDccqe39Y18XjWC6u87C1HzTQLZbA==}
     peerDependencies:
       '@swc/core': ^1.16.0
       '@swc/jest': ^0.2.37
@@ -11578,7 +11578,7 @@ snapshots:
 
   '@stripe/stripe-js@5.10.0': {}
 
-  '@swc-contrib/mut-cjs-exports@15.0.0(@swc/core@1.16.2)(@swc/jest@0.2.39(@swc/core@1.16.2))':
+  '@swc-contrib/mut-cjs-exports@16.0.0(@swc/core@1.16.2)(@swc/jest@0.2.39(@swc/core@1.16.2))':
     dependencies:
       '@swc/core': 1.16.2
       '@swc/jest': 0.2.39(@swc/core@1.16.2)
